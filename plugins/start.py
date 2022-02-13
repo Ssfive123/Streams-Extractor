@@ -19,12 +19,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("📚 ʜᴇʟᴘ", callback_data="help_data"),
+                    InlineKeyboardButton("😎 ᴀʙᴏᴜᴛ", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                        "🔰 ᴜᴘᴅᴀᴛᴇs 🔰", url="https://t.me/MovieHubOtt")
                 ]
             ]
         ),
